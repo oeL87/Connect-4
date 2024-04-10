@@ -1,0 +1,350 @@
+{
+  "gameCount": 5,
+  "games": [
+    {
+      "playerTurn": false,
+      "columns": [
+        {
+          "cells": [
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        }
+      ],
+      "rowCount": 6,
+      "draw": false,
+      "columnCount": 7,
+      "win": true
+    },
+    {
+      "playerTurn": false,
+      "columns": [
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        }
+      ],
+      "rowCount": 6,
+      "draw": false,
+      "columnCount": 7,
+      "win": true
+    },
+    {
+      "playerTurn": true,
+      "columns": [
+        {
+          "cells": [
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"}
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": " "},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": " "}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"}
+          ],
+          "columnFull": true
+        }
+      ],
+      "rowCount": 6,
+      "draw": false,
+      "columnCount": 7,
+      "win": true
+    },
+    {
+      "playerTurn": true,
+      "columns": [
+        {
+          "cells": [
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"}
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"}
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"}
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"}
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "O"},
+            {"pieceSymbol": "X"},
+            {"pieceSymbol": "X"}
+          ],
+          "columnFull": true
+        }
+      ],
+      "rowCount": 6,
+      "draw": true,
+      "columnCount": 7,
+      "win": false
+    }
+  ],
+  "winRate": 66.66
+}

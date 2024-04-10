@@ -1,0 +1,642 @@
+{
+  "gameCount": 3,
+  "games": [
+    {
+      "playerTurn": false,
+      "columns": [
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        }
+      ],
+      "columnCount": 7,
+      "rowCount": 6,
+      "draw": false,
+      "win": false
+    },
+    {
+      "playerTurn": false,
+      "columns": [
+        {
+          "cells": [
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        }
+      ],
+      "columnCount": 7,
+      "rowCount": 6,
+      "draw": false,
+      "win": false
+    },
+    {
+      "playerTurn": false,
+      "columns": [
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": true
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": false
+        },
+        {
+          "cells": [
+            {
+              "pieceSymbol": "X",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            },
+            {
+              "pieceSymbol": " ",
+              "pieceColor": "java.awt.Color[r=187,g=187,b=187]"
+            }
+          ],
+          "columnFull": false
+        }
+      ],
+      "columnCount": 7,
+      "rowCount": 6,
+      "draw": false,
+      "win": false
+    }
+  ],
+  "winRate": 0
+}
