@@ -2,6 +2,7 @@ package model;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class Connect4GameTest {
@@ -13,9 +14,9 @@ public class Connect4GameTest {
     @BeforeEach
     void setup() {
         c4g = new Connect4Game();
-        game1 = new GameBoard(6,7);
-        game2 = new GameBoard(6,7);
-        game3 = new GameBoard(6,7);
+        game1 = new GameBoard(6, 7);
+        game2 = new GameBoard(6, 7);
+        game3 = new GameBoard(6, 7);
     }
 
     @Test

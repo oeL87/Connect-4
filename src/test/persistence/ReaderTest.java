@@ -24,13 +24,13 @@ public class ReaderTest {
     @BeforeEach
     void setup() {
         ArrayList<ArrayList<Character>> character2DArray = new ArrayList<>();
-        character2DArray.add(new ArrayList<>(Arrays.asList('X','X','X','O','O',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('O','X',' ',' ',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('O','X','O',' ',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('X','X',' ',' ',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList(' ',' ',' ',' ',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList(' ',' ',' ',' ',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('O',' ',' ',' ',' ',' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('X', 'X', 'X', 'O', 'O', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', 'X', ' ', ' ', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', 'X', 'O', ' ', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('X', 'X', ' ', ' ', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList(' ', ' ', ' ', ' ', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList(' ', ' ', ' ', ' ', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', ' ', ' ', ' ', ' ', ' ')));
         ArrayList<Column> columns = new ArrayList<>();
         for (ArrayList<Character> array : character2DArray) {
             ArrayList<Cell> cells = new ArrayList<>();
@@ -39,16 +39,16 @@ public class ReaderTest {
             }
             columns.add(new Column(cells));
         }
-        game0Answer = new GameBoard(6,7, columns, false, true, false);
+        game0Answer = new GameBoard(6, 7, columns, false, true, false);
 
         character2DArray = new ArrayList<>();
-        character2DArray.add(new ArrayList<>(Arrays.asList('O',' ',' ',' ',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('O','O',' ',' ',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('O',' ',' ',' ',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('X','O','O',' ',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('X','X','X',' ',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('O','X','X','O','O',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('X','X','X','X',' ',' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', ' ', ' ', ' ', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', 'O', ' ', ' ', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', ' ', ' ', ' ', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('X', 'O', 'O', ' ', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('X', 'X', 'X', ' ', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', 'X', 'X', 'O', 'O', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('X', 'X', 'X', 'X', ' ', ' ')));
         columns = new ArrayList<>();
         for (ArrayList<Character> array : character2DArray) {
             ArrayList<Cell> cells = new ArrayList<>();
@@ -57,16 +57,16 @@ public class ReaderTest {
             }
             columns.add(new Column(cells));
         }
-        game1Answer = new GameBoard(6,7, columns, false, true, false);
+        game1Answer = new GameBoard(6, 7, columns, false, true, false);
 
         character2DArray = new ArrayList<>();
-        character2DArray.add(new ArrayList<>(Arrays.asList('X','O','X','X','X','O')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('X','O','O',' ',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('X','O','O','X',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('O','O',' ',' ',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('X','O','O','X',' ',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('O','O','X','X','X',' ')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('O','X','O','X','X','O')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('X', 'O', 'X', 'X', 'X', 'O')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('X', 'O', 'O', ' ', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('X', 'O', 'O', 'X', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', 'O', ' ', ' ', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('X', 'O', 'O', 'X', ' ', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', 'O', 'X', 'X', 'X', ' ')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', 'X', 'O', 'X', 'X', 'O')));
         columns = new ArrayList<>();
         for (ArrayList<Character> array : character2DArray) {
             ArrayList<Cell> cells = new ArrayList<>();
@@ -75,16 +75,16 @@ public class ReaderTest {
             }
             columns.add(new Column(cells));
         }
-        game2Answer = new GameBoard(6,7, columns, true, true, false);
+        game2Answer = new GameBoard(6, 7, columns, true, true, false);
 
         character2DArray = new ArrayList<>();
-        character2DArray.add(new ArrayList<>(Arrays.asList('X','X','O','X','O','X')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('O','O','X','O','O','X')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('O','O','X','O','X','O')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('X','O','X','X','O','X')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('O','X','O','X','O','O')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('X','O','O','X','O','X')));
-        character2DArray.add(new ArrayList<>(Arrays.asList('O','X','X','O','X','X')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('X', 'X', 'O', 'X', 'O', 'X')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', 'O', 'X', 'O', 'O', 'X')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', 'O', 'X', 'O', 'X', 'O')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('X', 'O', 'X', 'X', 'O', 'X')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', 'X', 'O', 'X', 'O', 'O')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('X', 'O', 'O', 'X', 'O', 'X')));
+        character2DArray.add(new ArrayList<>(Arrays.asList('O', 'X', 'X', 'O', 'X', 'X')));
         columns = new ArrayList<>();
         for (ArrayList<Character> array : character2DArray) {
             ArrayList<Cell> cells = new ArrayList<>();
@@ -93,10 +93,10 @@ public class ReaderTest {
             }
             columns.add(new Column(cells));
         }
-        game3Answer = new GameBoard(6,7, columns, true, false, true);
+        game3Answer = new GameBoard(6, 7, columns, true, false, true);
 
-        gameAnswers = new ArrayList<>(Arrays.asList(game0Answer,game1Answer,
-                game2Answer,game3Answer));
+        gameAnswers = new ArrayList<>(Arrays.asList(game0Answer, game1Answer,
+                game2Answer, game3Answer));
     }
 
     @Test

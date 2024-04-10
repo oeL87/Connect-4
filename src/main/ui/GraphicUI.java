@@ -30,7 +30,7 @@ public class GraphicUI extends JFrame implements ActionListener, MouseListener {
 
     private boolean isTitleScreen;
 
-//    creates a new GraphicUI object to manage the graphical version of the game
+    //    creates a new GraphicUI object to manage the graphical version of the game
     public GraphicUI() {
         reader = new Reader(FILEPATH);
         writer = new Writer(FILEPATH);
@@ -73,7 +73,7 @@ public class GraphicUI extends JFrame implements ActionListener, MouseListener {
     // EFFECTS: creates the main title screen with 4 buttons and corresponding text
     private void paintTitleScreen(Graphics2D g2D, int width, int height) {
         g2D.setColor(new Color(0xff5e61bd));
-        g2D.fillRoundRect(width / 16, 0, width * 7 / 8, height * 7 / 8, 5,5);
+        g2D.fillRoundRect(width / 16, 0, width * 7 / 8, height * 7 / 8, 5, 5);
         g2D.setColor(new Color(0xff78230e));
         g2D.setFont(new Font("TimesNewRoman", Font.BOLD, 40));
         g2D.drawString("Connect 4", (width - g2D.getFontMetrics().stringWidth("Connect 4")) / 2, height * 2 / 15);
@@ -182,7 +182,7 @@ public class GraphicUI extends JFrame implements ActionListener, MouseListener {
     // EFFECTS: takes gameBoard and paints it to be visually represented for the player
     private void paintBoard(Graphics2D g2D) {
         g2D.setColor(new Color(0xff3e5ebd));
-        g2D.fillRect(10,10, getWidth() - 20, getHeight() - 20);
+        g2D.fillRect(10, 10, getWidth() - 20, getHeight() - 20);
         for (int x = 0; x < gameBoard.getColumnCount(); x++) {
             for (int y = 0; y < gameBoard.getRowCount(); y++) {
                 g2D.setColor(gameBoard.getColumns().get(x).getCells().get(y).getPieceColor());

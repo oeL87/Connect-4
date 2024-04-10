@@ -8,6 +8,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 // Taken from <a href="https://github.students.cs.ubc.ca/CPSC210/AlarmSystem">...</a>
 public class EventLogTest {
     private Event e1;

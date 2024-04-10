@@ -41,7 +41,7 @@ public class GameBoard {
     //No requires because if max < min, the math still works
     //EFFECTS: generates a random number between max and min (inclusive)
     public static int randomNumberGenerator(int max, int min) {
-        int random = (int)(Math.random() * (max - min + 1) + min);
+        int random = (int) (Math.random() * (max - min + 1) + min);
         EventLog.getInstance().logEvent(new Event("random number " + random + " generated"));
         return random;
     }

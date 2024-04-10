@@ -28,13 +28,13 @@ public class WriterTest {
             }
             columns.add(new Column(cells));
         }
-        connect4Game.addGameToList(new GameBoard(6,7, columns, false, false, false));
-        connect4Game.addGameToSave(new GameBoard(6,7, columns, false, false, false));
+        connect4Game.addGameToList(new GameBoard(6, 7, columns, false, false, false));
+        connect4Game.addGameToSave(new GameBoard(6, 7, columns, false, false, false));
         columns = new ArrayList<Column>();
         for (int x = 0; x < 7; x++) {
             ArrayList<Cell> cells = new ArrayList<>();
             for (int y = 0; y < 6; y++) {
-                if (y%2 == 0) {
+                if (y % 2 == 0) {
                     cells.add(new Cell(' '));
                 } else {
                     cells.add(new Cell('X'));
@@ -42,13 +42,13 @@ public class WriterTest {
             }
             columns.add(new Column(cells));
         }
-        connect4Game.addGameToList(new GameBoard(6,7, columns, false, false, false));
-        connect4Game.addGameToSave(new GameBoard(6,7, columns, false, false, false));
+        connect4Game.addGameToList(new GameBoard(6, 7, columns, false, false, false));
+        connect4Game.addGameToSave(new GameBoard(6, 7, columns, false, false, false));
         columns = new ArrayList<Column>();
         for (int x = 0; x < 7; x++) {
             ArrayList<Cell> cells = new ArrayList<>();
             for (int y = 0; y < 6; y++) {
-                if (y%(x+1) == 0) {
+                if (y % (x + 1) == 0) {
                     cells.add(new Cell('X'));
                 } else {
                     cells.add(new Cell(' '));
@@ -56,8 +56,8 @@ public class WriterTest {
             }
             columns.add(new Column(cells));
         }
-        connect4Game.addGameToList(new GameBoard(6,7, columns, false, false, false));
-        connect4Game.addGameToSave(new GameBoard(6,7, columns, false, false, false));
+        connect4Game.addGameToList(new GameBoard(6, 7, columns, false, false, false));
+        connect4Game.addGameToSave(new GameBoard(6, 7, columns, false, false, false));
     }
 
     @Test
@@ -113,7 +113,7 @@ public class WriterTest {
             assertFalse(connect4Game.getPastGames().get(1).isWin());
             for (int x = 0; x < 7; x++) {
                 for (int y = 0; y < 6; y++) {
-                    if (y%2 == 0) {
+                    if (y % 2 == 0) {
                         assertEquals(' ',
                                 connect4Game.getPastGames().get(1).getColumns().get(x).getCells().get(y).getPieceSymbol());
                     } else {
@@ -143,7 +143,7 @@ public class WriterTest {
             assertFalse(connect4Game.getPastGames().get(2).isWin());
             for (int x = 0; x < 7; x++) {
                 for (int y = 0; y < 6; y++) {
-                    if (y%(x+1) == 0) {
+                    if (y % (x + 1) == 0) {
                         assertEquals('X',
                                 connect4Game.getPastGames().get(2).getColumns().get(x).getCells().get(y).getPieceSymbol());
                     } else {

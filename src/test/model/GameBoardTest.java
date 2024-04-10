@@ -15,7 +15,7 @@ public class GameBoardTest {
 
     @BeforeEach
     void setup() {
-        game = new GameBoard(6,7);
+        game = new GameBoard(6, 7);
     }
 
     @Test
@@ -69,7 +69,7 @@ public class GameBoardTest {
 
     @Test
     void checkWinTestDiagonalUp() {
-        List<Integer> loopList = new ArrayList<>(List.of(0,1,1,3,2,2,3,3,2,2,3));
+        List<Integer> loopList = new ArrayList<>(List.of(0, 1, 1, 3, 2, 2, 3, 3, 2, 2, 3));
         for (int i : loopList) {
             assertFalse(game.isWin());
             assertFalse(game.isDraw());
@@ -83,7 +83,7 @@ public class GameBoardTest {
 
     @Test
     void checkWinTestDiagonalDown() {
-        List<Integer> loopList = new ArrayList<>(List.of(3,2,2,0,1,1,0,0,1,1,0));
+        List<Integer> loopList = new ArrayList<>(List.of(3, 2, 2, 0, 1, 1, 0, 0, 1, 1, 0));
         for (int i : loopList) {
             assertFalse(game.isWin());
             assertFalse(game.isDraw());
@@ -97,7 +97,7 @@ public class GameBoardTest {
 
     @Test
     void checkWinTestRows() {
-        List<Integer> loopList = new ArrayList<>(List.of(0,0,1,1,2,2,3));
+        List<Integer> loopList = new ArrayList<>(List.of(0, 0, 1, 1, 2, 2, 3));
         for (int i : loopList) {
             assertFalse(game.isWin());
             assertFalse(game.isDraw());
@@ -111,7 +111,7 @@ public class GameBoardTest {
 
     @Test
     void checkWinTestColumns() {
-        List<Integer> loopList = new ArrayList<>(List.of(0,1,0,1,0,1,0));
+        List<Integer> loopList = new ArrayList<>(List.of(0, 1, 0, 1, 0, 1, 0));
         for (int i : loopList) {
             assertFalse(game.isWin());
             assertFalse(game.isDraw());
@@ -124,7 +124,7 @@ public class GameBoardTest {
     }
 
     @Test
-    void checkDrawTest(){
+    void checkDrawTest() {
         for (int y = 0; y < 2; y++) {
             for (int x = 0; x < 7; x++) {
                 assertFalse(game.isDraw());

@@ -24,7 +24,7 @@ public class GamePanel extends JPanel {
         super.paintComponent(g);
         Graphics2D g2D = (Graphics2D) g;
         g2D.setColor(new Color(0xff3e5ebd));
-        g2D.fillRect(0,0, getWidth(), getHeight());
+        g2D.fillRect(0, 0, getWidth(), getHeight());
         for (int x = 0; x < gameBoard.getColumnCount(); x++) {
             for (int y = 0; y < gameBoard.getRowCount(); y++) {
                 g2D.setColor(gameBoard.getColumns().get(x).getCells().get(y).getPieceColor());

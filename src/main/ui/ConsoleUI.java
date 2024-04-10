@@ -25,11 +25,11 @@ public class ConsoleUI {
 
     private boolean titleScreen;
 
-//    creates a new ConsoleUI to manage the console version of the game
+    //    creates a new ConsoleUI to manage the console version of the game
     public ConsoleUI() {
         titleScreen = true;
 
-        gameBoard = new GameBoard(6,7);
+        gameBoard = new GameBoard(6, 7);
         connect4Game = new Connect4Game();
         reader = new Reader(FILEPATH);
         writer = new Writer(FILEPATH);
@@ -54,7 +54,6 @@ public class ConsoleUI {
         System.out.println("closed");
         writer.close();
     }
-
 
 
     //MODIFIES: this
@@ -82,7 +81,7 @@ public class ConsoleUI {
         }
         saveGames();
         titleScreen = true;
-        gameBoard = new GameBoard(6,7);
+        gameBoard = new GameBoard(6, 7);
     }
 
     //REQUIRES: game has been set up
